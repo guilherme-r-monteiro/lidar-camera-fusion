@@ -1,0 +1,13 @@
+[project]
+name = "lidar-camera-fusion"
+version = "0.1.0"
+description = "Fuses YOLO detections with LiDAR points on a KITTI drive to estimate object distance and track objects, scored against KITTI tracklets."
+requires-python = ">=3.12"
+dependencies = ["onnxruntime>=1.18", "numpy>=1.26", "pillow>=10.0", "scipy>=1.11"]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

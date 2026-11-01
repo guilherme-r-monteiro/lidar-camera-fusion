@@ -1,0 +1,149 @@
+{
+  "ground_truth_in_range": 464,
+  "matched": 337,
+  "matched_with_lidar_points": 316,
+  "depth": {
+    "0-15m": {
+      "against_near_face": {
+        "fused": {
+          "count": 40,
+          "median_signed_error_m": 0.750610241803372,
+          "median_abs_error_m": 0.750610241803372,
+          "median_rel_error": 0.07006251178157384,
+          "within_10_percent": 0.725
+        },
+        "monocular": {
+          "count": 40,
+          "median_signed_error_m": 0.8906964628627758,
+          "median_abs_error_m": 1.0190631873274292,
+          "median_rel_error": 0.09509345686121913,
+          "within_10_percent": 0.55
+        }
+      },
+      "against_center": {
+        "fused": {
+          "count": 40,
+          "median_signed_error_m": -1.1136778436304162,
+          "median_abs_error_m": 1.1136778436304162,
+          "median_rel_error": 0.09012069785414857,
+          "within_10_percent": 0.625
+        },
+        "monocular": {
+          "count": 40,
+          "median_signed_error_m": -1.0984383199227539,
+          "median_abs_error_m": 1.3743929284623722,
+          "median_rel_error": 0.10431075160029088,
+          "within_10_percent": 0.45
+        }
+      }
+    },
+    "15-30m": {
+      "against_near_face": {
+        "fused": {
+          "count": 145,
+          "median_signed_error_m": 0.336585154701341,
+          "median_abs_error_m": 0.3434362233775765,
+          "median_rel_error": 0.017636366260385544,
+          "within_10_percent": 0.9793103448275862
+        },
+        "monocular": {
+          "count": 145,
+          "median_signed_error_m": 1.7606875226098353,
+          "median_abs_error_m": 2.3379562952621917,
+          "median_rel_error": 0.10607003558451084,
+          "within_10_percent": 0.4827586206896552
+        }
+      },
+      "against_center": {
+        "fused": {
+          "count": 145,
+          "median_signed_error_m": -1.6605086088996543,
+          "median_abs_error_m": 1.6605086088996543,
+          "median_rel_error": 0.07245510726535706,
+          "within_10_percent": 0.8413793103448276
+        },
+        "monocular": {
+          "count": 145,
+          "median_signed_error_m": -0.08241788395023875,
+          "median_abs_error_m": 2.0603207765407774,
+          "median_rel_error": 0.09080947706705486,
+          "within_10_percent": 0.5241379310344828
+        }
+      }
+    },
+    "30-60m": {
+      "against_near_face": {
+        "fused": {
+          "count": 131,
+          "median_signed_error_m": 0.15918041972492603,
+          "median_abs_error_m": 0.24528840050951572,
+          "median_rel_error": 0.006877067070160014,
+          "within_10_percent": 0.9236641221374046
+        },
+        "monocular": {
+          "count": 131,
+          "median_signed_error_m": 2.375799441546384,
+          "median_abs_error_m": 3.474537895633567,
+          "median_rel_error": 0.10050059209625961,
+          "within_10_percent": 0.4961832061068702
+        }
+      },
+      "against_center": {
+        "fused": {
+          "count": 131,
+          "median_signed_error_m": -1.92035190656253,
+          "median_abs_error_m": 1.94945692264373,
+          "median_rel_error": 0.051642518931757406,
+          "within_10_percent": 0.9007633587786259
+        },
+        "monocular": {
+          "count": 131,
+          "median_signed_error_m": 0.4185101399417377,
+          "median_abs_error_m": 3.1178644971176404,
+          "median_rel_error": 0.08896281949642626,
+          "within_10_percent": 0.5648854961832062
+        }
+      }
+    },
+    "0-60m": {
+      "against_near_face": {
+        "fused": {
+          "count": 316,
+          "median_signed_error_m": 0.2965626791861329,
+          "median_abs_error_m": 0.35112136891726653,
+          "median_rel_error": 0.016725856616441527,
+          "within_10_percent": 0.9240506329113924
+        },
+        "monocular": {
+          "count": 316,
+          "median_signed_error_m": 1.5672600069299838,
+          "median_abs_error_m": 2.4476564690991403,
+          "median_rel_error": 0.10057601147599275,
+          "within_10_percent": 0.49683544303797467
+        }
+      },
+      "against_center": {
+        "fused": {
+          "count": 316,
+          "median_signed_error_m": -1.6806504003350016,
+          "median_abs_error_m": 1.6976324684950486,
+          "median_rel_error": 0.061601211934509396,
+          "within_10_percent": 0.8386075949367089
+        },
+        "monocular": {
+          "count": 316,
+          "median_signed_error_m": -0.42585558577391325,
+          "median_abs_error_m": 2.2535275884134567,
+          "median_rel_error": 0.09085731185080059,
+          "within_10_percent": 0.5316455696202531
+        }
+      }
+    }
+  },
+  "tracking": {
+    "ground_truth_tracks_matched": 14,
+    "tracker_ids_used": 27,
+    "id_switches": 23,
+    "matched_observations": 316
+  }
+}
